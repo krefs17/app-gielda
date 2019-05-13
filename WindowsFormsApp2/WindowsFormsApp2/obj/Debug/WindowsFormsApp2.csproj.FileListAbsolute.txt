@@ -10,10 +10,3 @@ C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsF
 C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
 C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
-C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\OxyPlot.dll
-C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\OxyPlot.WindowsForms.dll
-C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\OxyPlot.pdb
-C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\OxyPlot.xml
-C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\OxyPlot.WindowsForms.pdb
-C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\OxyPlot.WindowsForms.xml
-C:\Users\mariu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
