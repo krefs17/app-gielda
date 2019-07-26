@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using BLContracts.Entities;
+
 namespace WindowsFormsApp2
 {
     public partial class Form3 : Form
@@ -32,7 +34,7 @@ namespace WindowsFormsApp2
                 tag = new LinkLabel();
                 box = new RichTextBox();
                 tag.Location = new Point(x, y);
-                tag.Text = listai[i].nazwa;
+                tag.Text = listai[i].Nazwa;
                 tag.Size = new Size(30, 15);
                 this.Controls.Add(tag);                
                 bar.Location = new Point(x + 30, y);

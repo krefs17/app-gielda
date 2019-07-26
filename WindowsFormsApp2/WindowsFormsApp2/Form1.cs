@@ -11,6 +11,8 @@ using System.Data.SqlClient;
 using System.Net;
 using System.IO;
 using System.Data.SqlTypes;
+using BLContracts.Entities;
+
 namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
@@ -85,7 +87,7 @@ namespace WindowsFormsApp2
             Form3 form3 = new Form3();
             foreach (var item in Form2.listai)
             {
-                Form3.listai.Add(new Instrument { nazwa = item.nazwa,notowania=n });                
+                Form3.listai.Add(new Instrument { Nazwa = item.Nazwa,Notowania=n });                
             }         
             if (Form3.listai.Count == 0)
             {

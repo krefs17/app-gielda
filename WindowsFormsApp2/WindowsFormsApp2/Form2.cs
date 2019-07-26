@@ -11,6 +11,8 @@ using System.Data.SqlClient;
 using System.Net;
 using System.IO;
 using System.Data.SqlTypes;
+using BLContracts.Entities;
+
 namespace WindowsFormsApp2
 {
 
@@ -37,8 +39,8 @@ namespace WindowsFormsApp2
             while (reader.Read())
             {
 
-                inst.Add(new Instrument { nazwa = reader.GetString(0), notowania = n });
-                listBox1.Items.Add(new Instrument { nazwa = reader.GetString(0), notowania = n });
+                inst.Add(new Instrument { Nazwa = reader.GetString(0), Notowania = n });
+                listBox1.Items.Add(new Instrument { Nazwa = reader.GetString(0), Notowania = n });
             }
             listBox1.DisplayMember = "nazwa";
             listBox1.ValueMember = "wolumen";
@@ -94,7 +96,7 @@ namespace WindowsFormsApp2
                 listBox1.Items.Clear();
                 foreach (Instrument item in inst)
                 {
-                    if (item.nazwa.StartsWith(textBox1.Text.ToUpper()))
+                    if (item.Nazwa.StartsWith(textBox1.Text.ToUpper()))
                     {
                         listBox1.Items.Add((Instrument)item);
                     }
