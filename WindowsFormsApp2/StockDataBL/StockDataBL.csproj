@@ -43,6 +43,9 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +61,7 @@
     <Compile Include="DbSetExtensions.cs" />
     <Compile Include="FromStringStocksDataExtractor.cs" />
     <Compile Include="FromURIStocksDataExtractor.cs" />
+    <Compile Include="FromZipStocksDataExtractor.cs" />
     <Compile Include="Migrations\201907271309315_InitialCreate.cs" />
     <Compile Include="Migrations\201907271309315_InitialCreate.Designer.cs">
       <DependentUpon>201907271309315_InitialCreate.cs</DependentUpon>

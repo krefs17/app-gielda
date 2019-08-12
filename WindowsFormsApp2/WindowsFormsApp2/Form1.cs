@@ -26,7 +26,8 @@ namespace WindowsFormsApp2
         private void Button1_Click(object sender, EventArgs e)
         {
 //             new BusinessLayer().GetStockDataFor("11BIT");
-            var dictionary = new BusinessLayer().Wibor;
+        //    var dictionary = new BusinessLayer().Wibor;
+
 //            WebClient Client = new WebClient();
 //            Client.DownloadFile("https://info.bossa.pl/pub/ciagle/mstock/sesjacgl/sesjacgl.prn", @"C:\Users\mariu\Downloads\akcje.txt");
 //            var conn = new SqlConnection();
