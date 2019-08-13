@@ -25,7 +25,7 @@ namespace WindowsFormsApp2
         
         private void Button1_Click(object sender, EventArgs e)
         {
-//             new BusinessLayer().GetStockDataFor("11BIT");
+            new BusinessLayer().InsertAllStockData();
         //    var dictionary = new BusinessLayer().Wibor;
 
 //            WebClient Client = new WebClient();

@@ -24,7 +24,7 @@ namespace StockDataBL
                         {
                             using (StreamReader str = new StreamReader(stream))
                             {
-                                list.AddRange(_dataExtractor.Extract(str.ReadToEnd()));
+                                list.AddRange(_dataExtractor.Extract(str.ReadToEnd(),true));
                             }
                         }
                     }

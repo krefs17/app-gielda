@@ -15,8 +15,9 @@ namespace StockDataBL
         {
             _cultureInfo.NumberFormat.NumberDecimalSeparator = ".";
         }
-        public IEnumerable<dane_gieldowe> Extract(string source)
-            => source.Split(new char[] {'\n','\r'},StringSplitOptions.RemoveEmptyEntries).Select(
+        public IEnumerable<dane_gieldowe> Extract(string source, bool omitHeader = false)
+            => source.Split(new char[] {'\n','\r'},StringSplitOptions.RemoveEmptyEntries)
+                .Skip(omitHeader ? 1 : 0).Select(
                 line =>
                 {
                     string[] words = line.Split(',');

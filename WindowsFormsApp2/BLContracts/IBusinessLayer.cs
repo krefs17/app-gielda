@@ -7,7 +7,7 @@ namespace BLContracts
     {
         void UpdateLastWeekStockData();
         void UpdateLastMonthStockData();
-
+        void InsertAllStockData();
         string[] GetAllInstrumentsNames();
         List<Instrument> GetStockDataFor(string[] instrumentsNames);
 

@@ -37,6 +37,13 @@ namespace StockDataBL
             }
         }
 
+        public void InsertAllStockData()
+        {
+            var stocksUpdater = new StocksUpdater();
+            stocksUpdater.InsertAll(new FromZipStocksDataExtractor()
+                .Extract("https://info.bossa.pl/pub/ciagle/mstock/mstcgl.zip"));
+        }
+
         public string[] GetAllInstrumentsNames()
         {
             using (var context = new StocksDataContext())
